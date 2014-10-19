@@ -1,0 +1,15 @@
+{
+  "name": "Thermostat",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "latest",
+    "socket.io": "latest",
+    "backbone": "latest"
+  },
+  "devDependencies": {
+    "karma": "^0.12.23",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-jasmine": "^0.1.5"
+  }
+}

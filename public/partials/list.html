@@ -1,0 +1,28 @@
+<h1>{{title}}</h1>
+<div class="container">
+	<h2>Downstairs</h2>
+    <div class="section" ng-repeat='room in rooms.downstairs' ng-click="navigate(room.name,'downstairs')">	      	    	
+    	<div class="left">
+    		<a class="roomname" ng-href='#/downstairs/{{room.name}}'>{{room.name}}</a>
+    	</div>
+    	<div class="right">
+    		<span>{{room.degrees}}</span>
+    		<sup class="marl">o</sup>
+    		<span class="padl10">&gt;</span>
+    	</div>        	
+    	<div class="clear"></div>	    	
+    </div>
+
+    <h2>Upstairs</h2>
+	<div class="section" ng-repeat='room in rooms.upstairs' ng-click="navigate(room.name,'upstairs')">
+    	<div class="left">
+    		<a class="roomname" ng-href='#/upstairs/{{room.name}}'>{{room.name}}</a>
+    	</div>
+    	<div class="right">
+    		<span>{{room.degrees}}</span>
+    		<sup class="marl">o</sup>
+    		<span class="padl10">&gt;</span>
+    	</div>        	
+    	<div class="clear"></div>	    	
+    </div>
+</div>

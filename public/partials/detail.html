@@ -1,0 +1,22 @@
+<button class="back" ng-click="home()">Back</button>
+<h1>{{title}}</h1>
+<h3>{{room.name}}</h3>
+<div class="bigtext"><span>{{room.degrees}}</span><sup>o</sup></div>
+<div class="container">
+	<div class="section">	      	    	
+    	<div class="left">Cool Setpoint</div>
+    	<div class="right"><span>{{room.coolsetpoint}}</span><sup>o</sup></div>
+    	<div class="clear"></div>	    	
+    </div>
+    <div class="section">	      	    	
+    	<div class="left">Heat Setpoint</div>
+    	<div class="right"><span>{{room.heatsetpoint}}</span><sup>o</sup></div>        	
+    	<div class="clear"></div>	    	
+    </div>
+    <div class="btngrp">
+    	<button class="btn">Auto</button>
+    	<button class="btn heat">Heat</button>
+    	<button class="btn cool">Cool</button>
+    	<button class="btn">Off</button>
+    </div>
+</div>	
